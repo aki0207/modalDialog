@@ -1,0 +1,32 @@
+.modal {
+display: none;
+position: fixed;
+z-index: 1;
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+overflow: auto;
+background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content{
+background-color: white;
+width: 500px;
+margin-top:0;
+margin-left: auto;
+margin-right: auto;
+}
+
+.modal-body{
+    padding: 30px;
+}
+
+.btnGrp{
+    text-align: right;
+}
+
+.btnGrp input{
+    width:100px;
+    height:30px;
+}
